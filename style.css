@@ -1,0 +1,205 @@
+body {
+	width: 1920px;
+    height: 5156px;
+    border: 1px solid green;
+}
+
+.mainPage {
+    position: absolute;
+	width: 1920px;
+	height: 950px;
+	left: 0px;
+	top: 0px;
+    background-color: linear-gradient(0deg, rgba(51, 51, 51, 0.87), rgba(51, 51, 51, 0.87));
+    background-image: url('bgc.jpg');
+}
+
+#logo {
+	position: absolute;
+	width: 216px;
+	height: 52px;
+	left: 852px;
+	top: 25px;
+
+}
+
+.firstNav a {
+	position: absolute;
+	height: 21px;
+	width: 84px;
+	margin-left: 538px;
+	margin-top: 43px;
+
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 150%;
+
+	color: #FFFFFF;
+	
+
+}
+
+.firstNav a#a1 {
+	margin-left: 405px;
+}
+
+.firstNav a#a3 {
+	margin-left: 662px;
+}
+
+.secondNav a {
+
+	position: absolute;
+	top: 43px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 150%;
+	text-align: right;
+	color: #FFFFFF;
+}
+
+.secondNav a#a4 {
+	margin-right: 675px;
+	margin-left: 1205px;
+}
+
+.secondNav a#a5 {
+	margin-left: 1285px;
+	margin-right: 512px;
+}
+
+.secondNav a#a6 {
+	margin-left: 1452px;
+	margin-right: 452px;
+}
+.secondNav a#a7 {
+	margin-left: 1497.64px;
+	margin-right: 406.07px;
+}
+
+#slog {
+	position: absolute;
+	width: 730px;
+	height: 49px;
+	left: 595px;
+	top: 600px;
+	font-family: Noto Serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 49px;
+
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.catalogBtn {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 15px 35px;
+
+	position: absolute;
+	width: 261px;
+	height: 51px;
+	margin-left: 830px;
+	margin-top: 699px;
+	background: #333333;
+	border: 1px solid #FFFFFF;
+	
+
+}
+
+.catalogBtn  #catalogBtnText {
+	width: 191px;
+	height: 21px;
+	margin-left: 35px;
+	margin-top: 15px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 21px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: 0px 10px;
+		
+}
+
+#bottomHr {
+	position: absolute;
+	height: 60px;
+    margin-top: 860px;
+    margin-left: 420px;
+	border: 1px solid #FFFFFF;
+}
+
+.manyLogos div {
+	margin-left: 405px;
+	top: 860px;
+}
+
+#div1 > img {
+	position: absolute;
+	width: 160px;
+	height: 60px;
+	left: 405px;
+	top: 860px;
+}
+#div2  > img{
+	position: absolute;
+	width: 160px;
+	height: 60px;
+	left: 595px;
+	top: 860px;
+}
+#div3 > img{
+	position: absolute;
+	width: 160px;
+	height: 60px;
+	left: 785px;
+	top: 860px;
+}
+#div4 > img{
+	position: absolute;
+	width: 160px;
+	height: 60px;
+	left: 975px;
+	top: 860px;
+}
+
+#div5 > img{
+	position: absolute;
+	width: 160px;
+	height: 60px;
+	left: 1165px;
+	top: 860px;
+}
+
+#div6 > img{
+	position: absolute;
+	width: 160px;
+	height: 60px;
+	right: 405px;
+	top: 860px;
+}
+
+.Holidays {
+	position: absolute;
+	width: 1110px;
+	height: 851px;
+	left: 45px;
+	top: 1080px;
+	border: 3px solid green;
+
+}
+
