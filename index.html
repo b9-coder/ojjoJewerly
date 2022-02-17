@@ -2,69 +2,129 @@
 <html>
   <head>
     <title>OJJO</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-    <div class="trueMainPage">
-    <div class='mainPage' style='display: block'>
-      <p>TEST</p>
-      <img id='logo' src="OJJO.png" />
-    </div>
-    <div class='navS'>
-      <nav class='firstNav'>
-        <a id='a1'>Контрагентам</a> 
-        <a id='a2'>Дизайнерам</a> 
-        <a id='a3'>Вакансии</a>
-      </nav>
-      <nav class='secondNav'>
-        <a id='a4'><img src='loop.png' />Поиск</a> 
-        <a id='a5'>Вход/Регистрация</a> 
-        <a id='a6'><img src='avatar.png' /></a>
-        <a id='a7'><img src='like.png' /></a> 
-      </nav>
-      <h1 id='slog'>Долго, дорого, богато!</h1>
-      <button type="button" class='catalogBtn'><h1 id='catalogBtnText'>КАТАЛОГ ИЗДЕЛИЙ</h1></button>
-      <hr id='bottomHr' />
-
-      <div class="manyLogos">
-        <div class='l1' id='div1'><img src='manyLogo.png' /></div>
-        <div class='vl' />
-        <div id='div2'><img src='manyLogo.png' /></div>
-        <div class='vl' />
-        <div id='div3'><img src='manyLogo.png' /></div>
-        <div class='vl' />
-        <div><img src='manyLogo.png' /></div>
-        <div id='div4'class='vl' />
-        <div><img src='manyLogo.png' /></div>
-        <div class='vl' />
-        <div id='div4'><img src='manyLogo.png' /></div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="secondPage">
-    <div class='Holidays'>
-        <div id='toHol'><p>К мероприятиям<p></div>
-        <div class='realHolHere'><h1>Настоящая красота здесь!</h1></div>
-        <div class='secondButtons'>
-          <button class='btn2'>Свадьба </button>
-          <button class='btn2'>Мужу </button>
-          <button class='btn2'>Жене </button>
-          <button class='btn2'>Партнеру </button>
-          <button class='btn2'>Коллекции </button>
-          <button class='btn2'>Редькость </button>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container _container">
+          <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+              <span  class="burger__item"></span>
+            </label>
+            <nav class="header__menu1 menu" id="nav">
+                <a class="menu__link" href="#" >Контрагентам</a>
+                <a class="menu__link" href="#" >Дизайнерам</a>
+                <a class="menu__link" href="#" >Вакансии</a>
+            </nav>
+            <div class="header__logo">
+                 <a href="" class="header__logo">OJJO</a>
+            </div>
+            <nav class="header__menu2 menu" id="nav">
+                <img class="nav-2__icon" src="img/icon/search.svg" alt="" >
+                <a class="menu__link" href="#" >Поиск</a>
+                <a class="menu__link" href="#" >Вход/Регистрация</a>
+                <div class="header__icon">
+                    <img class="nav-2__icon" src="img/icon/user.svg" alt="">
+                    <img  src="img/icon/save.svg" alt="">
+                </div>
+            </nav>
+          <!--
+          <nav class="header__menu menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="" class="menu__link">Контрагентам</a>
+              </li>
+              <li class="menu__item">
+                <a href="" class="menu__link">Дизайнерам</a>
+              </li>
+              <li class="menu__item">
+                <a href="" class="menu__link">Вакансии</a>
+              </li>
+              <a href="" class="header__logo">OJJO</a>
+              <li class="menu__item">
+                <a href="" class="menu__link">Поиск</a>
+              </li>
+              <li class="menu__item">
+                <a href="" class="menu__link">Вход/Регистрация</a>
+              </li>
+              <li class="menu__item">
+                <a href="" class="menu__link">Тест</a>
+              </li>
+            </ul>
+          </nav>
+          -->
+        </div>  
+      </header>
+      <main class="page">
+        <div class="page__main-block main-block">
+          <div class="main-block__container _container">
+            <div class="main-block__body">
+              <h1 class="main-block__title">Долго, дорого, богато!</h1>
+              <div class="main-block__buttons">
+                <a href="" class="main-block__button">Каталог изделий!</a>
+              </div>
+           </div>
+          </div>
+          
+           <hr/>
         </div>
-        <div class="Images">
-          <img src="./images/secondPage/rings.png" alt="" class="imgS">
-          <img src="./images/secondPage/sergi.png" alt="" class="imgS">
-          <img src="./images/secondPage/podvs.png" alt="" class="imgS">
-          <img src="./images/secondPage/zaponki.png" alt="" class="imgS">
-          <img src="./images/secondPage/braslety.png" alt="" class="imgS">
-          <img src="./images/secondPage/hours.png" alt="" class="imgS">
+        <div class="page__services services">
+          <div class="services__container _container">
+            <div class="services__body">
+              <div class="services__column">
+                <div class="services__item item-service">
+                  <div class="item-service__icon">
+                    <img src="images/main/manyLogo.png" alt="bottomLogo" />
+                  </div>
+                </div>
+              </div>
+              <div class="services__column">
+                <div class="services__item item-service">
+                  <div class="item-service__icon">
+                    <img src="images/main/manyLogo.png" alt="bottomLogo" />
+                  </div>
+                </div>
+              </div>
+              <div class="services__column">
+                <div class="services__item item-service">
+                  <div class="item-service__icon">
+                    <img src="images/main/manyLogo.png" alt="bottomLogo" />
+                  </div>
+                </div>
+              </div>
+              <div class="services__column">
+                <div class="services__item item-service">
+                  <div class="item-service__icon">
+                    <img src="images/main/manyLogo.png" alt="bottomLogo" />
+                  </div>
+                </div>
+              </div>
+              <div class="services__column">
+                <div class="services__item item-service">
+                  <div class="item-service__icon">
+                    <img src="images/main/manyLogo.png" alt="bottomLogo" />
+                  </div>
+                </div>
+              </div>
+              <div class="services__column" >
+                <div class="services__item item-service" >
+                  <div class="item-service__icon" id='wB'>
+                    <img src="images/main/manyLogo.png" alt="bottomLogo"  />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-  </div>
-  
+      </main>
+     <!--
+      <div class="main-block__image _ibg">
+            <img src="images/main/bgc.jpg" alt="cover">
+          </div>
+    
+    </div> --> 
+    
   </body>
 </html>
