@@ -3,33 +3,33 @@
   <head>
     <title>OJJO</title>
     <link rel="stylesheet" href="css/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   </head>
   <body>
     <div class="wrapper">
       <header class="header">
         <div class="header__container _container">
-          <input id="menu__toggle" type="checkbox" />
-            <label class="menu__btn" for="menu__toggle">
-              <span  class="burger__item"></span>
-            </label>
-            <nav class="header__menu1 menu" id="nav">
-                <a class="menu__link" href="#" >Контрагентам</a>
+            <nav class="header__menu1 menu" id="nav1">
+                <a class="menu__link" id='firstNavLink' href="#" >Контрагентам</a>
                 <a class="menu__link" href="#" >Дизайнерам</a>
                 <a class="menu__link" href="#" >Вакансии</a>
             </nav>
             <div class="header__logo">
-                <img src="images/logo.svg" alt="">
+                <img id='exepImg' src="images/logo.svg" alt="">
             </div>
-            <nav class="header__menu2 menu" id="nav">
+            <nav class="header__menu2 menu" id="nav2">
                 <img class="nav-2__icon" src="images/icon/search.svg" alt="" >
                 <a class="menu__link" href="#" >Поиск</a>
                 <a class="menu__link" href="#" >Вход/Регистрация</a>
                 <div class="header__icon">
                     <img class="nav-2__icon" src="images/icon/user.svg" alt="">
-                    <img  src="images/icon/save.svg" alt="">
+                    <img class="nav-2__icon" src="images/icon/save.svg" alt="">
                 </div>
+                
             </nav>
+            <button class="menu__open">
+                    <img class='exepImg' src="images/menu-icon.svg" width='10px' height='10px' alt="open menu">
+            </button>
         </div>  
       </header>
       <main class="page">
@@ -63,7 +63,7 @@
             <div class="common__subtitle">Настоящая красота здесь!</div>
         </div>
         <div class="events__buttons">
-            <div class="row">   
+            <div class="rowButtons">   
                     <div class="events__item">
                         <button class="btn--events">
                             Свадьба
@@ -210,12 +210,12 @@
             </div>
             <div class="social__inner">
                 <div class="row no-gutters">
-                        <iframe class='iframe1'width="360px" height="300px" src="https://www.youtube.com/embed/L6HIhNivFJw" frameborder="0"  allowfullscreen></iframe>
+                        <iframe class='iframe1'width="200px" height="300px" src="https://www.youtube.com/embed/L6HIhNivFJw" frameborder="0"  allowfullscreen></iframe>
                         <img src="images/socail/social-1.svg" alt="">
                         <img src="images/socail/social-2.svg" alt="">
                         <img src="images/socail/social-3.svg" alt="">
                         <img src="images/socail/social-4.svg" alt="">
-                        <iframe class='iframe1' width="360px" height="300px" src="https://www.youtube.com/embed/L6HIhNivFJw" frameborder="0"  allowfullscreen></iframe>
+                        <iframe class='iframe1' width="200px" height="300px" src="https://www.youtube.com/embed/L6HIhNivFJw" frameborder="0"  allowfullscreen></iframe>
                     
                 </div>
             </div>
@@ -230,7 +230,7 @@
                 <div class="common__subtitle common-white">Эксклюзивная рассылка</div>
             </div>
             <div class="mail__inner">
-                <div class="row">
+                <div class="row mail__row">
                         <ul class="mail__ul">
                             <li>Личный менеджер</li>
                             <li>Доставка и оформление</li>
@@ -325,5 +325,7 @@
             </div>
         </div>
     </div>
+    <script src='https://code.jquery.com/jquery-3.6.0.slim.min.js'></script>
+    <script src='js/main.js'></script>
   </body>
 </html>
